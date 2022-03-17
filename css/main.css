@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #fff;
+    height: 91px;
+}
+.section1{
+    height: 845px;
+}
+
+.container{
+    background: url(../img/olympusb_700.jpg) no-repeat;
+    color: #fff;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 845px;
+    background-size: 100%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    z-index: 1;
+}
+.color-overlay{
+    background: linear-gradient(to top right, blue, red);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: .4;
+    position: absolute;
+}
+
+.section2{
+    min-height: 697px;
+}   
+footer{
+    min-height: 100%;
+    min-height: 334px;
+    background: black;
+}
+.logo{
+    color: black;
+    padding-left: 150px;
+    padding-top: 36px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px slategray;
+}
+.wrapper{
+    display: flex;
+}
+.menu{
+    padding-top: 36px;
+    padding-left: 600px;
+}
+a{
+    text-decoration: none;
+    margin-left: 45px;
+    color: dimgrey;
+}
+.photo{
+    padding-left: 200px;
+    padding-top: 140px;
+}
+.picture{
+    position: absolute;
+    box-shadow: rgb(177, 53, 146) 6px 6px;
+}
+.container{
+    display: flex;
+}
+h2{
+    color: black;
+    padding-left: 654px;
+    padding-top: 63px;
+    font-family: monospace;
+    font-size: 30px;
+}
+.button{
+    margin-top: 55px;
+    padding-top: -12px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+.Read-more{
+    min-height: 42px;
+    min-width: 124px;
+    margin-top: 163px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -470px;
+    background: #fff;
+    box-shadow: blue 2px 2px;
+    z-index: 1;
+}
+.p{
+    padding-left: 654px;
+    color: black;
+    padding-top: 10px;
+    line-height: 0.7em;
+}
+.button1{
+    padding-left: 654px;
+    color: #fff;
+    padding-top: 65px;
+}
+.Read-more1{
+    min-height: 43px;
+    min-width: 131px;
+    box-shadow: black 2px 2px;
+    background: blue;
+    color: #fff;
+}
+.portfolio{
+    color: black;
+    padding-left: 60px;
+}
+.section3{
+    min-height: 916px;
+}
+.img{
+    display: flex;
+    padding-left: 200px;
+}
+img{
+    margin-left: 20px;
+}
+.img2{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 55px;
+}
+.text{
+    padding-left: 500px;
+    line-height: 0.5em;
+}
+.container--{
+    padding-top: 30px;
+}
+.footer-all{
+    color: darkcyan;
+    padding-left: 285px;
+    font-family: 'Open Sans', sans-serif;
+}
+.home{
+    padding-left: 600px;
+    color: #fff;
+    display: flex;
+}
+.text-p{
+    margin-left: 5px;
+}
+.wrapper-all{
+    display: flex;
+    padding-top: 125px;
+}
+.finish{
+    color: #fff;
+    display: flex;
+    padding-left: 285px;
+    padding-top: 10px;
+}
+.number{
+    padding-left: 450px;
+    padding-top: 10px;
+    display: flex;
+}
+.number2{
+    margin-left: 8px;
+}
+.End{
+    align-items: center;
+    justify-content: center;
+    color: rgb(114, 108, 108);
+    padding-top: 100px;
+    padding-left: 550px;
+    font-family: unset;
+}
+ 
+    /* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+    .photo{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .home{
+        flex-direction: column;
+    }
+}
+    /* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container{
+        width: 720px;
+        margin: 0 auto;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+}
+    /* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 540px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+}
+    /* 0  - 576px */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+}
